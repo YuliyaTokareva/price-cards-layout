@@ -1,0 +1,105 @@
+.price-card {
+  width: 380px;
+  background: #334247;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+  margin-right: 18px;
+  overflow: auto;
+}
+.price-card:last-child {
+  margin-right: 0;
+}
+.price-card__title {
+  font-size: 35px;
+  line-height: 43px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-top: 33px;
+}
+.price-card__subtitle {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 300;
+  display: block;
+  text-align: center;
+}
+.price-card__price {
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 105px;
+  text-align: center;
+  display: block;
+
+  margin-top: 33px;
+}
+.price-basic {
+  background-color: #5bb189;
+}
+.price-business {
+  background-color: #3a6ba5;
+}
+.price-webshop {
+  background-color: #ec632a;
+}
+.price-card__description {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  margin: 40px 26px;
+}
+.price-card__options-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.price-card__options-item {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 16px 21px 16px 22px;
+}
+.price-card__checkmark {
+  width: 15px;
+  height: 13px;
+  display: inline-block;
+  margin-right: 22px;
+}
+.symbol__green {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+}
+.symbol__blue {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+}
+.symbol__orange {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+}
+.price-card__options-item:nth-child(odd) {
+  background-color: #2a3438;
+}
+.price-card__order-btn {
+  padding: 0;
+  margin: 0;
+  width: 154px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 17px;
+
+  border-radius: 20px;
+  color: #fff;
+  border: 0;
+  margin: 0 auto;
+  display: block;
+  margin-top: 39px;
+  margin-bottom: 40px;
+}
+.card-basic__btn {
+  background: #5bb189;
+}
+.card-business__btn {
+  background-color: #3a6ba5;
+}
+.card-webshop__btn {
+  background-color: #ec632a;
+}
