@@ -7,13 +7,14 @@
 html {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
-  color: #ffffff;
+  color: $text-color-white;
 }
 body {
-  background-color: #141b1c;
+  background-color: $background-color-page;
   display: flex;
   min-height: 100vh;
   width: 100%;
   justify-content: center;
   align-items: center;
+  overflow: auto;
 }
