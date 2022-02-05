@@ -8,6 +8,24 @@
 .price-card:last-child {
   margin-right: 0;
 }
+.price-card:nth-child(2) {
+  position: relative;
+}
+.price-card__badge {
+  background: #dc3f45;
+  transform: rotate(45deg);
+  display: block;
+  text-align: center;
+  position: absolute;
+  top: 31px;
+  right: -30px;
+  width: 147px;
+  height: 25px;
+  font-weight: bold;
+  font-size: 14px;
+
+  line-height: 25px;
+}
 .price-card__title {
   font-size: 35px;
   line-height: 43px;
